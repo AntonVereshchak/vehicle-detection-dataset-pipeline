@@ -1,0 +1,15 @@
+# Local datasets, source videos, annotations and exports
+/dataset/
+*.mp4
+*.avi
+*.mov
+*.pt
+*.onnx
+*.engine
+/runs/
+/baseline_validation/
+/verified_vehicle_labels_104.zip
+__pycache__/
+*.py[cod]
+.venv/
+.env
