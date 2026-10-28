@@ -1,14 +1,27 @@
-# Local datasets, source videos, annotations and exports
-/dataset/
+# Ignore working datasets
+/dataset/*
+
+# Allow verified dataset
+!/dataset/verified_104/
+
+# Ignore source videos
 *.mp4
 *.avi
 *.mov
+
+# Ignore model weights
 *.pt
 *.onnx
 *.engine
+
+# Ignore training outputs
 /runs/
 /baseline_validation/
+
+# Ignore archive
 /verified_vehicle_labels_104.zip
+
+# Python temporary files
 __pycache__/
 *.py[cod]
 .venv/
