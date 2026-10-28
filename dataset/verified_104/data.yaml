@@ -1,5 +1,10 @@
-path: C:/Users/User/Documents/Test fourth law/dataset/verified_104
+# Verified annotation dataset: 104 images
+# Train and val reference the same images.
+# NOT intended for model accuracy evaluation.
+
+path: .
 train: images
 val: images
+
 names:
   0: Vehicle
